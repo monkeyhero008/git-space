@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+以上内容就是xml文件的声明
+version表示xml的版本
+encoding表示xml文件本身的编码
+-->
+<books>
+<!--books表示多个图书信息-->
+    <book sn="SN12345678">
+<!--book表示一个图书信息 sn属性表示图书的序列号-->
+        <name><!--name标签表示书名-->时间简史</name>
+        <author>霍金</author>
+<!--author标签表示图书作者-->
+        <price>75</price>
+<!--price标签表示图书价格-->
+    </book>
+    <book sn="SN2345678">
+        <name>java</name>
+        <author>老沙</author>
+        <price>22</price>
+    </book>
+</books>
